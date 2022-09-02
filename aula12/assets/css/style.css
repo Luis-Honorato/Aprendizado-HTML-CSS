@@ -53,3 +53,6 @@ input:checked{
 input:checked~p{
     background-color: red;
 }
+input:not(:checked)~p{
+    color: blue;
+}
