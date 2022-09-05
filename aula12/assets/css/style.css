@@ -56,3 +56,13 @@ input:checked~p{
 input:not(:checked)~p{
     color: blue;
 }
+
+ul li::before{
+    content: 'antes ';
+    color: blue;
+}
+
+ul li::after{
+    content: ' depois';
+    color: yellow;
+}
