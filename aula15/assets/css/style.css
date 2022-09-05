@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+.pai{
+    background-color: yellow;
+    height: 100vh;
+}
+
+.color-one{
+    background-color: turquoise;
+}
+
+.color-two{
+    background-color: violet;
+}
